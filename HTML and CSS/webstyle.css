@@ -1,0 +1,520 @@
+*{margin: 0;}
+
+body{
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Londrina Solid', sans-serif;
+    padding: 50px;
+}
+
+.logo{
+    float:left;
+    width: 130px;
+    height: auto;
+}
+
+.logo:hover{
+    transition:all ease-in-out 0.6s;
+    background-color: #5a557485;
+}
+
+.Nav:hover{
+    transition:all ease-in-out 0.6s;
+    background-color: #5a557485;
+}
+
+.introT{
+    position: relative;
+    text-align: center;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 50px;
+    top: 30px;
+}
+
+.introP{
+    text-align:center;
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 25px;
+    top: 40px;
+    line-height: 1.8;
+}
+
+.homePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: auto;
+    position: relative;
+    top: 50px;
+}
+
+.otherRanks{
+    font-family: 'Oleo Script', sans-serif;
+    position: relative;
+    top: 90px;
+    font-size: 33px;
+    color:rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    overflow: auto;
+}
+.otherWeb ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.otherWeb li{
+    display: inline;
+}
+
+.otherWeb li a{
+    padding: 5px 7px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 23%;
+    display: inline-block;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 23px;
+}
+
+.otherWeb li a:link, a:visited{
+    background-color: #272729d2;
+    color:  rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb ul li a:hover, a:active{
+    background-color: #0d0d0fe8;
+}
+
+.contact{
+    position: relative;
+    top: 170px;
+    font-size: 30px;
+    color:  rgba(255, 251, 251, 0.918);
+    font-family: 'Oleo Script', sans-serif;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, .9);
+    height: 300px;
+    width: 100%;
+}
+
+.contactInfo{
+    list-style-type: none;
+    display: inline;
+}
+
+.Info{
+    display: inline;
+    position: relative;
+    top: 137px;
+    left: 250px;
+    padding: 5px 7px;
+    margin: 70px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 251, 251, 0.918);
+}
+
+.num1Rank{
+    position:relative;
+    text-align:left;
+    font-size: 35px;
+    top: 50px; 
+    margin-left: 135px; 
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.R1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 70px;
+}
+
+.rank1P{
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    top: 90px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.num2Rank{
+    position:relative;
+    text-align:left;
+    font-size: 35px;
+    top: 120px; 
+    margin-left: 135px; 
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.R2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 140px;
+}
+
+.rank2P{
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    top: 170px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.num3Rank{
+    position:relative;
+    text-align:left;
+    font-size: 35px;
+    top: 200px; 
+    margin-left: 135px; 
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.R3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 230px;
+}
+
+.rank3P{
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    top: 260px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.num4Rank{
+    position:relative;
+    text-align:left;
+    font-size: 35px;
+    top: 290px; 
+    margin-left: 135px; 
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.R4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 320px;
+}
+
+.rank4P{
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    top: 350px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.num5Rank{
+    position:relative;
+    text-align:left;
+    font-size: 35px;
+    top: 380px; 
+    margin-left: 135px; 
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.R5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 410px;
+}
+
+.rank5P{
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    top: 440px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.otherRanks2{
+    font-family: 'Oleo Script', sans-serif;
+    position: relative;
+    top: 90px;
+    font-size: 33px;
+    color:rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb2{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    overflow: auto;
+}
+.otherWeb2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.otherWeb2 li{
+    display: inline;
+}
+
+.otherWeb2 li a{
+    padding: 5px 7px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 23%;
+    display: inline-block;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 23px;
+}
+
+.otherWeb2 li a:link, a:visited{
+    background-color: #272729d2;
+    color:  rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb2 ul li a:hover, a:active{
+    background-color: #0d0d0fe8;
+}
+
+.contact2{
+    position: relative;
+    top: 170px;
+    font-size: 30px;
+    color:  rgba(255, 251, 251, 0.918);
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.Resfoot{
+    background-color: rgba(0, 0, 0, .9);
+    height: 300px;
+    width: 100%;
+}
+
+.contactInfo2{
+    list-style-type: none;
+    display: inline;
+}
+
+.Info2{
+    display: inline;
+    position: relative;
+    top: 137px;
+    left: 250px;
+    padding: 5px 7px;
+    margin: 70px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 251, 251, 0.918);
+}
+
+.allinfo{
+    position: relative;
+    top: 400px;
+}
+
+.Error{
+    text-align: center;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 50px;
+}
+
+.sademoji{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+
+.owner{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+.errorbackground{
+    background-color: rgba(0, 0, 0, .9);
+    color: rgba(255, 251, 251, 0.918);
+}
+
+button{
+    margin: 0;
+    position: relative;
+    top: 60%;
+    transform: translateX(204%);
+    border: none;
+    background-color: #38383bdc; 
+    padding: 35px;
+    border-radius: 20px;
+    font-size: 30px;
+    top: 30px;
+    font-family: 'Oleo Script', sans-serif; 
+    color: rgba(255, 255, 255, 0.9);   
+}
+
+button:hover{
+    transition:all ease-in-out 0.6s;
+    background-color: #22212985;
+}
+
+.aboutusP{
+    text-align:center;
+    position: relative;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 25px;
+    top: 40px;
+    line-height: 1.85;
+}
+
+.aboutpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: auto;
+    position: relative;
+    top: 45px;
+}
+
+.otherRanks3{
+    font-family: 'Oleo Script', sans-serif;
+    position: relative;
+    top: 90px;
+    font-size: 33px;
+    color:rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb3{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    overflow: auto;
+}
+.otherWeb3 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.otherWeb3 li{
+    display: inline;
+}
+
+.otherWeb3 li a{
+    padding: 5px 7px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 23%;
+    display: inline-block;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 23px;
+}
+
+.otherWeb3 li a:link, a:visited{
+    background-color: #272729d2;
+    color:  rgba(255, 251, 251, 0.918);
+}
+
+.otherWeb3 ul li a:hover, a:active{
+    background-color: #0d0d0fe8;
+}
+
+.contact3{
+    position: relative;
+    top: 170px;
+    font-size: 30px;
+    color:  rgba(255, 251, 251, 0.918);
+    font-family: 'Oleo Script', sans-serif;
+}
+
+.Resfoot2{
+    background-color: rgba(0, 0, 0, .9);
+    height: 300px;
+    width: 100%;
+}
+
+.contactInfo3{
+    list-style-type: none;
+    display: inline;
+}
+
+.Info3{
+    display: inline;
+    position: relative;
+    top: 137px;
+    left: 250px;
+    padding: 5px 7px;
+    margin: 70px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 251, 251, 0.918);
+}
+
+.about{
+    position: relative;
+    top: 5px;
+}
+
